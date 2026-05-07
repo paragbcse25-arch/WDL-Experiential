@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inkwell Studio — Copywriting Services</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">Inkwell<span>Studio</span></div>
+    <ul class="nav-links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#contact" class="nav-cta">Let's Talk</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#services" class="mob-link">Services</a></li>
+      <li><a href="#process" class="mob-link">Process</a></li>
+      <li><a href="#work" class="mob-link">Work</a></li>
+      <li><a href="#pricing" class="mob-link">Pricing</a></li>
+      <li><a href="#contact" class="mob-link">Let's Talk</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-text">WORDS</div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal-up">Copywriting Studio — Est. 2019</p>
+      <h1 class="hero-headline reveal-up">
+        Words that<br/>
+        <em class="typewriter-wrap"><span id="typewriter"></span><span class="cursor-blink">|</span></em><br/>
+        <span class="headline-last">your audience.</span>
+      </h1>
+      <p class="hero-sub reveal-up">We craft language that doesn't just communicate — it converts, captivates, and stays with people long after they've scrolled away.</p>
+      <div class="hero-actions reveal-up">
+        <a href="#services" class="btn-primary">Explore Services</a>
+        <a href="#work" class="btn-ghost">See Our Work ↗</a>
+      </div>
+    </div>
+    <div class="hero-stat-bar reveal-up">
+      <div class="stat"><span class="stat-num" data-target="340">0</span><span>+</span><p>Projects Delivered</p></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><span class="stat-num" data-target="97">0</span><span>%</span><p>Client Retention</p></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><span class="stat-num" data-target="12">0</span><span>x</span><p>Avg. Conversion Lift</p></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><span class="stat-num" data-target="6">0</span><span></span><p>Industry Awards</p></div>
+    </div>
+    <div class="scroll-hint">scroll</div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-track">
+    <div class="marquee-inner">
+      <span>Brand Storytelling</span><span class="dot">◆</span>
+      <span>Web Copy</span><span class="dot">◆</span>
+      <span>SEO Content</span><span class="dot">◆</span>
+      <span>Email Campaigns</span><span class="dot">◆</span>
+      <span>Social Media</span><span class="dot">◆</span>
+      <span>White Papers</span><span class="dot">◆</span>
+      <span>Brand Storytelling</span><span class="dot">◆</span>
+      <span>Web Copy</span><span class="dot">◆</span>
+      <span>SEO Content</span><span class="dot">◆</span>
+      <span>Email Campaigns</span><span class="dot">◆</span>
+      <span>Social Media</span><span class="dot">◆</span>
+      <span>White Papers</span><span class="dot">◆</span>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="section-label">— What We Do</div>
+    <div class="services-header">
+      <h2 class="section-title reveal-up">Every word <em>earns</em><br/>its place on the page.</h2>
+      <p class="services-intro reveal-up">Six core disciplines. One singular obsession: making your message impossible to ignore.</p>
+    </div>
+    <div class="services-grid">
+
+      <div class="service-card reveal-up" data-index="01">
+        <div class="card-number">01</div>
+        <div class="card-icon">✦</div>
+        <h3>Brand Storytelling</h3>
+        <p>Your origin, mission, and voice — distilled into narratives that build loyalty and define culture. We find the story only you can tell.</p>
+        <ul class="card-tags">
+          <li>Brand Voice Guide</li><li>About Pages</li><li>Mission & Vision</li>
+        </ul>
+        <a href="#contact" class="card-link">Start a project →</a>
+      </div>
+
+      <div class="service-card reveal-up" data-index="02">
+        <div class="card-number">02</div>
+        <div class="card-icon">⬡</div>
+        <h3>Website Copy</h3>
+        <p>Landing pages, homepages, and product pages engineered to guide visitors from curious to converted with precision and elegance.</p>
+        <ul class="card-tags">
+          <li>Landing Pages</li><li>Product Pages</li><li>UX Microcopy</li>
+        </ul>
+        <a href="#contact" class="card-link">Start a project →</a>
+      </div>
+
+      <div class="service-card reveal-up" data-index="03">
+        <div class="card-number">03</div>
+        <div class="card-icon">◈</div>
+        <h3>SEO Content</h3>
+        <p>Articles and blogs that rank without sounding robotic. We write for humans first, algorithms second — and win on both fronts.</p>
+        <ul class="card-tags">
+          <li>Blog Articles</li><li>Pillar Pages</li><li>Keyword Strategy</li>
+        </ul>
+        <a href="#contact" class="card-link">Start a project →</a>
+      </div>
+
+      <div class="service-card reveal-up" data-index="04">
+        <div class="card-number">04</div>
+        <div class="card-icon">◉</div>
+        <h3>Email Campaigns</h3>
+        <p>Sequences and newsletters that people actually look forward to opening. Subject lines, flows, and nurture tracks that drive real revenue.</p>
+        <ul class="card-tags">
+          <li>Welcome Sequences</li><li>Newsletters</li><li>Drip Campaigns</li>
+        </ul>
+        <a href="#contact" class="card-link">Start a project →</a>
+      </div>
+
+      <div class="service-card reveal-up" data-index="05">
+        <div class="card-number">05</div>
+        <div class="card-icon">▲</div>
+        <h3>Social Media Copy</h3>
+        <p>Scroll-stopping captions, thread hooks, and ad copy tailored to each platform's rhythm — from LinkedIn thought leadership to Instagram flair.</p>
+        <ul class="card-tags">
+          <li>Ad Copy</li><li>Captions</li><li>Thread Scripts</li>
+        </ul>
+        <a href="#contact" class="card-link">Start a project →</a>
+      </div>
+
+      <div class="service-card reveal-up" data-index="06">
+        <div class="card-number">06</div>
+        <div class="card-icon">◫</div>
+        <h3>White Papers & Reports</h3>
+        <p>Long-form authority content that positions your brand as the definitive expert — beautifully written, rigorously researched, strategically structured.</p>
+        <ul class="card-tags">
+          <li>White Papers</li><li>Case Studies</li><li>Annual Reports</li>
+        </ul>
+        <a href="#contact" class="card-link">Start a project →</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- QUOTE BREAK -->
+  <section class="quote-break">
+    <div class="quote-mark">"</div>
+    <blockquote class="reveal-up">
+      The difference between the almost right word and the right word is the difference between the lightning bug and the lightning.
+    </blockquote>
+    <cite class="reveal-up">— Mark Twain</cite>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="process" id="process">
+    <div class="section-label">— How It Works</div>
+    <h2 class="section-title reveal-up">Our process is<br/>simple. The results<br/><em>aren't.</em></h2>
+    <div class="process-steps">
+      <div class="step reveal-left">
+        <div class="step-num">01</div>
+        <div class="step-content">
+          <h3>Discovery Call</h3>
+          <p>We dig deep into your brand, audience, goals, and competitors. A 60-minute session where we ask the uncomfortable questions most agencies skip.</p>
+        </div>
+      </div>
+      <div class="step-line"></div>
+      <div class="step reveal-right">
+        <div class="step-num">02</div>
+        <div class="step-content">
+          <h3>Strategy & Brief</h3>
+          <p>Before a single word is written, we build your messaging architecture — positioning, tone, key messages, and a content blueprint you keep forever.</p>
+        </div>
+      </div>
+      <div class="step-line"></div>
+      <div class="step reveal-left">
+        <div class="step-num">03</div>
+        <div class="step-content">
+          <h3>First Draft</h3>
+          <p>Delivered on time. Every time. Our writers craft your copy with your brief in hand and your audience in mind, not a template in sight.</p>
+        </div>
+      </div>
+      <div class="step-line"></div>
+      <div class="step reveal-right">
+        <div class="step-num">04</div>
+        <div class="step-content">
+          <h3>Refine & Finalize</h3>
+          <p>Two rounds of revisions, a final proofread, and delivery in any format you need. Clean. Polished. Ready to publish.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK / TESTIMONIALS -->
+  <section class="work" id="work">
+    <div class="section-label">— Client Results</div>
+    <h2 class="section-title reveal-up">Don't take our<br/>word for it.</h2>
+    <div class="testimonials-grid">
+      <div class="testimonial-card reveal-up">
+        <div class="stars">★★★★★</div>
+        <p>"Inkwell completely transformed how we talk about our product. Our homepage conversion rate went from 2.1% to 8.7% in three months."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">SR</div>
+          <div>
+            <strong>Sarah Reinhardt</strong>
+            <span>CMO, Vaultly SaaS</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal-up featured">
+        <div class="stars">★★★★★</div>
+        <p>"They didn't just write copy — they gave us a voice. For the first time, our brand actually sounds like us. Clients notice. Prospects remember us."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">MO</div>
+          <div>
+            <strong>Marcus Osei</strong>
+            <span>Founder, Ember Consulting</span>
+          </div>
+        </div>
+        <div class="featured-badge">Featured</div>
+      </div>
+      <div class="testimonial-card reveal-up">
+        <div class="stars">★★★★★</div>
+        <p>"Our email open rates jumped 43% in the first campaign. The subject lines alone were worth the investment. Fast, collaborative, brilliant."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">PK</div>
+          <div>
+            <strong>Priya Kapoor</strong>
+            <span>Head of Growth, NovaMed</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Brand logos placeholder -->
+    <div class="logos-row reveal-up">
+      <p class="logos-label">Trusted by teams at</p>
+      <div class="logos">
+        <span>Vaultly</span>
+        <span>NovaMed</span>
+        <span>Ember</span>
+        <span>Helix Co.</span>
+        <span>Strand Labs</span>
+        <span>Orion Press</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing" id="pricing">
+    <div class="section-label">— Investment</div>
+    <h2 class="section-title reveal-up">Transparent pricing.<br/>No surprises.</h2>
+    <p class="pricing-sub reveal-up">Every engagement is tailored, but here's where most projects land.</p>
+    <div class="pricing-grid">
+      <div class="pricing-card reveal-up">
+        <div class="plan-name">Starter</div>
+        <div class="plan-price">$<span>799</span></div>
+        <p class="plan-desc">Perfect for small businesses launching their first serious content effort.</p>
+        <ul class="plan-features">
+          <li>✓ 1 Landing Page or 3 Blog Posts</li>
+          <li>✓ Brand Voice Discovery</li>
+          <li>✓ 2 Revision Rounds</li>
+          <li>✓ 5-day Turnaround</li>
+          <li class="dim">✗ Strategy Session</li>
+          <li class="dim">✗ SEO Keyword Research</li>
+        </ul>
+        <a href="#contact" class="btn-outline">Get Started</a>
+      </div>
+      <div class="pricing-card featured reveal-up">
+        <div class="popular-badge">Most Popular</div>
+        <div class="plan-name">Growth</div>
+        <div class="plan-price">$<span>2,499</span></div>
+        <p class="plan-desc">For brands ready to build a content engine that compounds over time.</p>
+        <ul class="plan-features">
+          <li>✓ Full Website Copy (up to 8 pages)</li>
+          <li>✓ Brand Voice Guide</li>
+          <li>✓ 60-min Strategy Session</li>
+          <li>✓ SEO Keyword Research</li>
+          <li>✓ 3 Revision Rounds</li>
+          <li>✓ 10-day Turnaround</li>
+        </ul>
+        <a href="#contact" class="btn-primary">Get Started</a>
+      </div>
+      <div class="pricing-card reveal-up">
+        <div class="plan-name">Authority</div>
+        <div class="plan-price">Custom</div>
+        <p class="plan-desc">Monthly retainer for brands that need a dedicated writing partner on call.</p>
+        <ul class="plan-features">
+          <li>✓ Ongoing Copy & Content</li>
+          <li>✓ Dedicated Senior Writer</li>
+          <li>✓ Monthly Strategy Calls</li>
+          <li>✓ Priority 48hr Turnaround</li>
+          <li>✓ Full Revision Policy</li>
+          <li>✓ Performance Reporting</li>
+        </ul>
+        <a href="#contact" class="btn-outline">Let's Talk</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BAND -->
+  <section class="cta-band" id="contact">
+    <div class="cta-bg-text">WRITE</div>
+    <div class="cta-content reveal-up">
+      <h2>Ready to find your<br/><em>unforgettable voice?</em></h2>
+      <p>Tell us about your project. We respond within 24 hours and offer a free 30-minute discovery call for all new inquiries.</p>
+      <div class="contact-form">
+        <div class="form-row">
+          <input type="text" placeholder="Your Name" id="nameInput" />
+          <input type="email" placeholder="Email Address" id="emailInput" />
+        </div>
+        <select id="serviceSelect">
+          <option value="" disabled selected>Service you need…</option>
+          <option>Brand Storytelling</option>
+          <option>Website Copy</option>
+          <option>SEO Content</option>
+          <option>Email Campaigns</option>
+          <option>Social Media Copy</option>
+          <option>White Papers & Reports</option>
+          <option>Retainer / Multiple Services</option>
+        </select>
+        <textarea placeholder="Tell us about your project, timeline, and goals…" rows="4" id="messageInput"></textarea>
+        <button class="btn-submit" id="submitBtn">Send My Brief →</button>
+        <p class="form-note" id="formNote"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="footer-logo">Inkwell<span>Studio</span></div>
+        <p>Words that move people.<br/>Copy that drives revenue.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Services</h4>
+          <a href="#services">Brand Storytelling</a>
+          <a href="#services">Website Copy</a>
+          <a href="#services">SEO Content</a>
+          <a href="#services">Email Campaigns</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="#">About Us</a>
+          <a href="#process">Our Process</a>
+          <a href="#work">Portfolio</a>
+          <a href="#">Blog</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <a href="mailto:hello@inkwellstudio.co">hello@inkwellstudio.co</a>
+          <a href="#">+1 (415) 209-3874</a>
+          <a href="#">Schedule a Call</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Inkwell Studio. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="#">LinkedIn</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
